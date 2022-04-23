@@ -1,5 +1,12 @@
 # Dambyurak NFT
 
+
+### Before you do this...
+
+1. Deploy your contract to chain
+1. Get the contract address
+1. Update values from wall.js first
+
 ### How to prepare NFT assets
 
 First, to sync github assets and the actual NFT assets, clean up the repo
