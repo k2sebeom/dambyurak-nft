@@ -1,0 +1,12 @@
+{
+    "name": "Dambyurak #2",
+    "description": "Stone Wall on which people can write comments",
+    "image": "https://k2sebeom.github.io/dambyurak-nft/images/WALL-2.png",
+    "animation_url": "https://k2sebeom.github.io/dambyurak-nft?id=2",
+    "attributes": [
+        {
+            "trait_type": "COLOR",
+            "value": "RGB(92, 65, 0)"
+        }
+    ]
+}
