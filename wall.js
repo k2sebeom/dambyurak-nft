@@ -4,12 +4,12 @@ const wallImage = $('#wall');
 const URLSearch = new URLSearchParams(location.search);
 const tokenId = parseInt(URLSearch.get('id'));
 
-const contractAddr = "0x2C4AA15027b99cA394Cd75558733Ac1fdD7D3Ae6";
+const contractAddr = "0x4352653ba4FC133f57EE53db683f1270F46bF1fd";
 const abi = [
     "function getAllNakseo(uint256 _tokenId) view public returns(tuple(address,string)[] memory)"
 ];
 
-const provider = new ethers.providers.JsonRpcProvider('https://rpc-mumbai.maticvigil.com');
+const provider = new ethers.providers.JsonRpcProvider('https://polygon-rpc.com');
 const contract = new ethers.Contract(contractAddr, abi, provider);
 
 async function fetchMsgs() {

@@ -43,3 +43,4 @@ python3 generate_metadata.py
 
 Upload the metadata folder to IPFS to use it as tokenURI
 
+Once you get the metadata CID, update the baseTokenURI of the contract.
