@@ -4,7 +4,7 @@ const wallImage = $('#wall');
 const URLSearch = new URLSearchParams(location.search);
 const tokenId = parseInt(URLSearch.get('id'));
 
-const contractAddr = "0x4352653ba4FC133f57EE53db683f1270F46bF1fd";
+const contractAddr = "0x4B2FbEd0CcDea6DfA35C5557Cd670C11922198ED";
 const abi = [
     "function getAllNakseo(uint256 _tokenId) view public returns(tuple(address,string)[] memory)"
 ];

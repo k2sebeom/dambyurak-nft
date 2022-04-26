@@ -4,7 +4,7 @@ import sys
 import os
 
 
-ASSET_CID = 'QmRYhypqC7dytXhpfQoEyzpbXqee2ZLi6Cn7YaqJbWe2F2'
+ASSET_CID = 'QmaUtiNBoyVicoWmcQiYML2Rkf71R9Cerkzs6RLABMVLwT'
 
 
 if __name__ == "__main__":
